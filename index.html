@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper and Scissors Game</title>
+	<style>
+		
+		h1{
+			padding-top: 75px;
+			padding-bottom: 20px;
+			text-align: center;
+		}
+
+		#game{
+			align-items: left;
+			text-align: center;
+			padding: 20px;
+			font-size: 25px;
+			font-weight: bold;
+		}
+
+		input{
+			padding: 5px;
+			font-size: 20px;
+			font-weight: bold;
+			font-family: serif;
+		}
+
+		#result3{
+			font-weight: bolder;
+			color: red;
+		}
+
+		#input{
+			margin-right: 20px;
+			padding-right: 10px;
+			padding-right: 50px;
+		}
+
+		#click{
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+
+
+	</style>
+</head>
+<body bgcolor="lightgray">
+
+<div class="one">
+	
+	<h1>Rock, Paper and Scissors Game</h1>
+
+	<form id="game">
+		
+		<input type="text" name="userinput" id="input">
+		<input type="button" name="computerinput" value="Computer's Turn" onclick="playGame()" id="click">
+		<p id="result1"></p>
+		<p id="result2"></p>
+		<p id="result3"></p>
+
+	</form>
+
+</div>
+
+<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
